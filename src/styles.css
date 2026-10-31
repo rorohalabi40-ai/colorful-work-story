@@ -105,7 +105,7 @@
   --gradient-sunset: linear-gradient(115deg, var(--primary) 0%, var(--secondary) 55%, var(--sun) 100%);
   --gradient-lagoon: linear-gradient(135deg, var(--accent) 0%, var(--lime) 100%);
   --gradient-candy: linear-gradient(135deg, var(--primary) 0%, oklch(0.68 0.22 20) 50%, var(--secondary) 100%);
-  --gradient-text: linear-gradient(100deg, var(--primary), var(--secondary), var(--sun), var(--accent), var(--primary));
+  --gradient-text: linear-gradient(100deg, var(--primary), var(--secondary), var(--accent), var(--primary));
 
   --shadow-pop: 0 20px 50px -18px color-mix(in oklab, var(--primary) 55%, transparent);
   --shadow-sun: 0 18px 40px -16px color-mix(in oklab, var(--secondary) 60%, transparent);
