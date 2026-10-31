@@ -23,8 +23,7 @@ export function SiteHeader() {
               key={l.to}
               to={l.to}
               activeOptions={{ exact: true }}
-              className="rounded-full px-3 py-1.5 font-semibold text-muted-foreground transition-colors hover:text-foreground"
-              activeProps={{ className: "bg-foreground text-background hover:text-background" }}
+              className="rounded-full px-3 py-1.5 font-semibold text-muted-foreground transition-colors hover:text-foreground data-[status=active]:bg-foreground data-[status=active]:text-background"
             >
               {l.label}
             </Link>
