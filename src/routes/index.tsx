@@ -59,7 +59,7 @@ function Index() {
           {/* Stacked cards */}
           <div className="relative mx-auto h-[420px] w-full max-w-md md:h-[500px]">
             <div className="animate-float absolute right-0 top-0 w-[72%] overflow-hidden rounded-3xl border-4 border-card bg-card shadow-pop [--tilt:6deg]">
-              <img src={makkah} alt="مكة المكرمة وقت الغروب" width={1024} height={1280} className="aspect-[4/5] w-full object-cover" />
+              <img src={makkah} alt="مكة المكرمة وقت الغروب" width={1280} height={1600} className="aspect-[4/5] w-full object-cover" />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/90 to-transparent p-4">
                 <p className="font-display font-bold text-ink-foreground">السيرة الذاتية</p>
               </div>
